@@ -1,20 +1,27 @@
 # Netflix Data Analysis
 
-This project analyzes Netflix’s content library using Python and pandas. It explores the types of shows, release trends, and offers visual insights into Netflix’s growth.
+This project analyzes Netflix’s content library using Python, pandas, and data visualization libraries like Matplotlib and Seaborn. It explores the types of shows, release trends, and provides visual insights into Netflix’s growth and content strategy.
+
+## Motivation
+Understanding Netflix’s content library helps reveal trends in entertainment consumption, genre popularity, and the platform’s growth over time.
 
 ## What it does
-- Loads Netflix dataset
-- Explores movies vs TV shows
-- Visualizes number of shows added per year
-- Provides summary insights from data
+- Loads and cleans the Netflix dataset
+- Explores distribution of Movies vs TV Shows
+- Visualizes content added per year and by genre
+- Provides summary insights from the dataset through graphs and statistics
 
-## How to run
-1. Clone the repository
-2. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows) and put the CSV in the `data/` folder
-3. Open and run the `netflix_analysis.ipynb` notebook in Jupyter
+## Dataset
+The data is sourced from [Kaggle: Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows), containing details like title, type, release year, genre, and rating.
 
-## Insights
-- Netflix has more movies than TV shows.
-- Recent years show a peak in the number of shows released.
-- This project gives a glimpse of Netflix’s content strategy.
+## Technologies Used
+- Python  
+- pandas  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
 
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/divija-19/netflix-data-analysis.git
